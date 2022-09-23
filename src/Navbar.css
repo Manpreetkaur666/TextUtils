@@ -1,0 +1,16 @@
+.colorpallete-Container{
+    margin: 10px;
+}
+.colorpallete{
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.color-1{
+    background-color: #42C2FF;
+}
+.color-2{
+    background-color: #F2789F;
+}
