@@ -39,9 +39,9 @@ import { Link } from 'react-router-dom';
           <li className="nav-item">
             <Link className="nav-link active" aria-current="page" to="/">Home</Link>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <Link className="nav-link" to="/about">{props.aboutText}</Link>
-          </li>
+          </li> */}
         </ul>
         {/* <div className='colorpallete-Container'>
         <button className='colorpallete color-1' onClick={props.handleColor("blue")}></button>

@@ -10,6 +10,7 @@ import {
   Routes,
   Route,
 } from "react-router-dom";
+import Footer from './components/Footer';
 
 function App() {
   
@@ -54,11 +55,12 @@ function App() {
   <Alert alert={alert}/>
   <div className='container'>
   <Routes>
-          <Route exact path="about" element={<About />}>
-          </Route>
+          {/* <Route exact path="about" element={<About />}>
+          </Route> */}
           <Route exact path="/" element = {<TextForm heading="Try TextUtils - Word Counter, Character Counter and Text Optimixation." mode={mode} showAlert={showAlert}/>}>
           </Route>
   </Routes>
+  <Footer />
   </div>
   </Router>
   
