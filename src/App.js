@@ -51,13 +51,13 @@ function App() {
 
   return (
   <Router>
-  <Navbar aboutText='About' mode={mode} toggleMode={toggleMode}/>
+  <Navbar aboutText='About' title='TextUtils' mode={mode} toggleMode={toggleMode}/>
   <Alert alert={alert}/>
   <div className='container'>
   <Routes>
           {/* <Route exact path="about" element={<About />}>
           </Route> */}
-          <Route exact path="/TextUtils" element = {<TextForm heading="Try TextUtils - Word Counter, Character Counter and Text Optimixation." mode={mode} showAlert={showAlert}/>}>
+          <Route exact path="/" element = {<TextForm heading="Try TextUtils - Word Counter, Character Counter and Text Optimization." mode={mode} showAlert={showAlert}/>}>
           </Route>
   </Routes>
   <Footer />
